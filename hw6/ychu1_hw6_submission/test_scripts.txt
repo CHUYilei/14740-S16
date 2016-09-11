@@ -1,0 +1,22 @@
+Testing scripts for 14740 homework 6:
+
+(0) Preparation:
+Put myloadbalancer.py into pox/ext/
+Put simple.py and www folder (all from project 1) into Home directory
+
+(1) start controller
+(Note: here 10.0.1.1 is ip for load balancer, server_ips are IPs allocated for servers that will be launched using mininet)
+sudo mn -c;cd ~/pox;./pox.py log.level --DEBUG myloadbalancer --lb_ip=10.0.1.1 --server_ips=10.0.0.1,10.0.0.2
+
+(2) start servers using mininet
+sudo mn --topo single,10 --mac --arp --switch ovsk --controller remote
+
+mininet> xterm h1 h2 h3 h4 h5 h6 h7 h8 h9
+
+h1> python ./simple.py 2345 www
+h2> python ./simple.py 2345 www
+
+(3) test from h3 ~ h9, use h3 as an example 
+(Note: 10.0.1.1 is load balancer ip, 2345 is the port lauching simple.py web server)
+
+h3> curl 10.0.1.1:2345

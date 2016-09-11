@@ -1,0 +1,25 @@
+[peer] ID:0,loc:latitude:154.89980739418579,longitude:152.81642087727369bandwidth:upload - 8.4418251E7,download - 9.0376246E7,capacity:391
+[peer] ID:1,loc:latitude:118.67088765755969,longitude:22.74603289394598bandwidth:upload - 3.2042191E7,download - 1.1087822E7,capacity:316
+[peer] ID:2,loc:latitude:106.90572552926807,longitude:76.91545392522652bandwidth:upload - 5.240425E7,download - 8230723.0,capacity:367
+[Main] 3 peers are initialized
+Simulation has been finished!
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 0
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 0
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 1
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 1
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 2
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 2
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 3
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 3
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 4
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 4
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 5
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 5
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 6
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 6
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 7
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 7
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 8
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 8
+Peer_id: [2]  request file from peer: [1]  for file_id: 1 and chunkid: 9
+Peer_id: [2]  receive file from peer: [1]  for file_id: 1 and chunkid: 9

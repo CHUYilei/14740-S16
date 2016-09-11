@@ -1,0 +1,233 @@
+Test cases:
+<1> few peer_num and few file_size  
+PEER_NUM = 5;   
+MAX_FILESIZE = 4*10
+
+[peer] ID:0,loc:latitude:109.77892693152563,longitude:124.87817625940731bandwidth:upload - 3.7572472E7,download - 4.1555768E7,capacity:9299644
+[peer] ID:1,loc:latitude:66.12405782159145,longitude:142.0248765210438bandwidth:upload - 3.6459358E7,download - 8.6962156E7,capacity:9892712
+[peer] ID:2,loc:latitude:62.67977947601396,longitude:124.74150324537808bandwidth:upload - 3.364501E7,download - 6.7867296E7,capacity:2388693
+[peer] ID:3,loc:latitude:15.96941546186507,longitude:161.56809925175176bandwidth:upload - 1.7275047E7,download - 4.9294007E7,capacity:8864350
+[peer] ID:4,loc:latitude:20.946678394298367,longitude:74.6481044879263bandwidth:upload - 4.5309913E7,download - 2.2699188E7,capacity:3031763
+[Main] 5 peers are initialized
+Simulation has been finished!
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 0
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 0
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 0
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 1
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 0
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 0
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 0
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 1
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 0
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 2
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 1
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 0
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 1
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 2
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 1
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 3
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 2
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 1
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 2
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 3
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 1
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 4
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 3
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 1
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 3
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 4
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 4
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 2
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 4
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 5
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 2
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 5
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 5
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 2
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 5
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 6
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 2
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 6
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 3
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 7
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 6
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 3
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 6
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 7
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 3
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 8
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 7
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 3
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 7
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 8
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 4
+Peer_id: [1]  request file from peer: [2]  for file_id: 5 and chunkid: 9
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 8
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 8
+Peer_id: [2]  request file from peer: [3]  for file_id: 6 and chunkid: 9
+Peer_id: [2]  receive file from peer: [3]  for file_id: 6 and chunkid: 9
+Peer_id: [1]  receive file from peer: [2]  for file_id: 5 and chunkid: 9
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 4
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 4
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 4
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 5
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 5
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 5
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 5
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 6
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 6
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 6
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 6
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 7
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 7
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 7
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 7
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 8
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 8
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 8
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 8
+Peer_id: [4]  request file from peer: [2]  for file_id: 8 and chunkid: 9
+Peer_id: [0]  request file from peer: [2]  for file_id: 7 and chunkid: 9
+Peer_id: [4]  receive file from peer: [2]  for file_id: 8 and chunkid: 9
+Peer_id: [0]  receive file from peer: [2]  for file_id: 7 and chunkid: 9
+
+
+<2> large peer_num and large file_num 
+PEER_NUM = 20;   
+MAX_FILESIZE = 20
+
+sample output:
+Peer_id: [4]  receive file from peer: [17]  for file_id: 16 and chunkid: 9
+Peer_id: [4]  request file from peer: [14]  for file_id: 17 and chunkid: 0
+Peer_id: [4]  receive file from peer: [14]  for file_id: 17 and chunkid: 0
+Peer_id: [15]  receive file from peer: [12]  for file_id: 19 and chunkid: 8
+Peer_id: [14]  request file from peer: [12]  for file_id: 2 and chunkid: 3
+Peer_id: [14]  receive file from peer: [12]  for file_id: 2 and chunkid: 3
+Peer_id: [14]  request file from peer: [12]  for file_id: 2 and chunkid: 4
+Peer_id: [14]  receive file from peer: [12]  for file_id: 2 and chunkid: 4
+Peer_id: [14]  request file from peer: [12]  for file_id: 2 and chunkid: 5
+Peer_id: [14]  receive file from peer: [12]  for file_id: 2 and chunkid: 5
+Peer_id: [14]  request file from peer: [12]  for file_id: 2 and chunkid: 6
+Peer_id: [14]  receive file from peer: [12]  for file_id: 2 and chunkid: 6
+Peer_id: [14]  request file from peer: [12]  for file_id: 2 and chunkid: 7
+Peer_id: [14]  receive file from peer: [12]  for file_id: 2 and chunkid: 7
+Peer_id: [14]  request file from peer: [12]  for file_id: 2 and chunkid: 8
+Peer_id: [14]  receive file from peer: [12]  for file_id: 2 and chunkid: 8
+Peer_id: [14]  request file from peer: [12]  for file_id: 2 and chunkid: 9
+Peer_id: [14]  receive file from peer: [12]  for file_id: 2 and chunkid: 9
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 0
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 0
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 1
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 1
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 2
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 2
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 3
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 3
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 4
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 4
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 5
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 5
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 6
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 6
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 7
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 7
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 8
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 8
+Peer_id: [14]  request file from peer: [12]  for file_id: 19 and chunkid: 9
+Peer_id: [14]  receive file from peer: [12]  for file_id: 19 and chunkid: 9
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 0
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 0
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 1
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 1
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 2
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 2
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 3
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 3
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 4
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 4
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 5
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 5
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 6
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 6
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 7
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 7
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 8
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 8
+Peer_id: [13]  request file from peer: [12]  for file_id: 5 and chunkid: 9
+Peer_id: [13]  receive file from peer: [12]  for file_id: 5 and chunkid: 9
+Peer_id: [13]  request file from peer: [14]  for file_id: 6 and chunkid: 0
+Peer_id: [13]  receive file from peer: [14]  for file_id: 6 and chunkid: 0
+Peer_id: [13]  request file from peer: [14]  for file_id: 6 and chunkid: 1
+Peer_id: [13]  receive file from peer: [14]  for file_id: 6 and chunkid: 1
+Peer_id: [13]  request file from peer: [14]  for file_id: 6 and chunkid: 2
+Peer_id: [13]  receive file from peer: [14]  for file_id: 6 and chunkid: 2
+Peer_id: [13]  request file from peer: [14]  for file_id: 6 and chunkid: 3
+Peer_id: [13]  receive file from peer: [14]  for file_id: 6 and chunkid: 3
+Peer_id: [13]  request file from peer: [14]  for file_id: 6 and chunkid: 4
+Peer_id: [13]  receive file from peer: [14]  for file_id: 6 and chunkid: 4
+Peer_id: [13]  request file from peer: [14]  for file_id: 6 and chunkid: 5
+Peer_id: [13]  receive file from peer: [14]  for file_id: 6 and chunkid: 5
+Peer_id: [13]  request file from peer: [14]  for file_id: 6 and chunkid: 6
+Peer_id: [13]  receive file from peer: [14]  for file_id: 6 and chunkid: 6
+Peer_id: [13]  request file from peer: [14]  for file_id: 6 and chunkid: 7
+
+
+<3> storge full for some peer_id
+Below is the parameters:
+    private static int MAX_CHUNKSIZE = 4; // 1K
+    private static int MAX_FILESIZE = 1024 * 100; //10G
+    private static int MIN_FILESIZE = 1024 * 1; //1K
+    private static int MAX_STORAGECAPACITY = 40 * 10; //1T
+    private static int MIN_STORAGECAPACITY = 0; //20G
+    private static int MIN_BANDWIDTH = 1024*200; //200K
+    private static int MAX_BANDWIDTH = 1024*1024*100; //10M
+
+    private static int PEER_NUM = 3;               // default peer number
+    private static int FILE_NUM = 3;
+
+
+[peer] ID:0,loc:latitude:61.3945876528869,longitude:28.693327777853643bandwidth:upload - 9.8838216E7,download - 2.0604872E7,capacity:16
+[peer] ID:1,loc:latitude:137.09006534069755,longitude:41.08538903003284bandwidth:upload - 1.8801492E7,download - 2.0825177E7,capacity:205
+[peer] ID:2,loc:latitude:114.7482405415711,longitude:40.317851626075516bandwidth:upload - 7.2601516E7,download - 1.02313187E8,capacity:80
+[Main] 3 peers are initialized
+Simulation has been finished!
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 0
+Storge full for peer id:0
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 0
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 1
+Storge full for peer id:0
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 0
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 2
+Storge full for peer id:0
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 1
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 1
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 3
+Storge full for peer id:0
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 2
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 4
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 2
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 3
+Storge full for peer id:0
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 3
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 5
+Storge full for peer id:0
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 4
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 6
+Storge full for peer id:0
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 4
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 7
+Storge full for peer id:0
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 5
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 8
+Storge full for peer id:0
+Storge full for peer id:0
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 5
+Peer_id: [0]  request file from peer: [1]  for file_id: 2 and chunkid: 9
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 6
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 6
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 7
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 7
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 8
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 8
+Peer_id: [1]  request file from peer: [2]  for file_id: 0 and chunkid: 9
+Peer_id: [1]  receive file from peer: [2]  for file_id: 0 and chunkid: 9
